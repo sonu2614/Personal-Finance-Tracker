@@ -1,0 +1,33 @@
+#chart_main_div{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow:var(--shadow);
+    margin-bottom: 1.5rem;
+    width: 97.5%;
+    margin-left: 1rem;
+}
+
+.chart_container{
+    margin-bottom: 2rem;
+    height:70vh !important;
+    margin-left: 1.5rem;
+    border-radius: 9px;
+}
+
+.chart_container h2{
+    margin-bottom: 0;
+    margin-left: 0.8rem;
+}
+.line{
+    width: 55% !important;
+    padding: 1rem;
+}
+.pie{
+    width: 28% !important;
+    padding: 1rem;
+}
+/* canvas from chart js library we can directly give css to this */
+.pie canvas{ 
+    height: 55vh !important;
+    margin-top: 1rem;
+}
